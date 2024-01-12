@@ -1,0 +1,155 @@
+
+.archivo{
+    font-family: 'Archivo', sans-serif;
+}
+.roboto{
+    font-family: 'Roboto Mono', monospace;
+}
+.rubik{
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    text-decoration: none !important;
+    color: inherit;
+}
+ul{
+    list-style: none;
+}
+.bg-navy{
+    background-color: #0b0e17 !important;
+}
+
+
+.dot-bg {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-image: url(../img/dot.svg);
+    background-position: 0px 0px;
+    background-size: 90px;
+    background-attachment: fixed;
+}
+.w-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+}
+.f-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+}
+.about-container {
+    position: relative;
+    margin-top: 4%;
+    margin-bottom: 120px;
+}
+.text-container{
+    margin-top: 12%;
+    margin-right: 18%;
+    margin-left: 7%
+}
+nav .logo .img-h{
+    opacity: 0;
+    visibility: hidden;
+}
+nav .logo .main:hover .img-h{
+    opacity: 1;
+    visibility: visible;
+}
+.frame-shadow{
+    opacity: 0;
+    visibility: hidden;
+}
+.work .box:hover .frame-shadow{
+    opacity: 1;
+    visibility: visible;
+    transform: rotate(-7deg);
+    transition: all 0.3s;
+}
+.work .box:hover .frame-1{
+    opacity: 0;
+    visibility: hidden;
+}
+.work .cont-s{
+    visibility: hidden;
+    opacity: 0;
+}
+.work .box:hover .cont-s{
+    opacity: 1;
+    visibility: visible;
+}
+.work .box:hover .text p{
+    transform: translateX(4%);
+    transition: all 0.3s;
+}
+.tv-block {
+    position: absolute;
+    left: auto;
+    top: -6rem;
+    right: -8%;
+    bottom: auto;
+    z-index: 999;
+    transform: rotate(6deg);
+}
+.tv-block-shadow {
+    position: absolute;
+    left: auto;
+    top: -5rem;
+    right: -10%;
+    bottom: auto;
+    z-index: 0;
+    transform: rotate(6deg);
+}
+.text-body-1{
+    display: block;
+    font-family: Archivo, sans-serif;
+    line-height: 1.6em;
+    letter-spacing: 0.02em
+}
+.divide-line{
+
+        width: 20%;
+        height: 2px;
+        margin-top: 2.5em;
+        margin-bottom: 2.5em; 
+        background-image: linear-gradient(270deg, #4869eb, #ee74b7);
+}
+.text-body-2{
+    margin-right: 20%;
+    background-image: linear-gradient(225deg, #0831d1, #f83aa2);
+    font-family: 'Roboto Mono', sans-serif;
+    color: #0831d1;
+    font-size: 17px;
+    line-height: 1.5em;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: normal;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.footer-navigation-item {
+    margin: 4em 7% 2em;
+    
+  
+    background-image: linear-gradient(270deg, #e3a5ee, #ede6bc);
+    font-size: 16px;
+    text-decoration: none;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.copyright-text {
+   
+    background-image: linear-gradient(90deg, #e3a5ee, #84a1fd);
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
